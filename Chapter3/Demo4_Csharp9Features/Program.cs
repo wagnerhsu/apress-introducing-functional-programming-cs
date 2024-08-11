@@ -1,5 +1,4 @@
-﻿using static System.Console;
-WriteLine("Use of record type, init accessor, and with expression.");
+﻿WriteLine("Use of record type, init accessor, and with expression.");
 
 // Original instance
 Employee emp1 = new("Sam", 1);
@@ -13,8 +12,8 @@ var emp2 = emp1 with { Id = 2 };
 WriteLine($"Emp1: {emp1}");
 WriteLine($"Emp2: {emp2}");
 
-//WriteLine($"The emp1's hashcode:{emp1.GetHashCode()}");
-//WriteLine($"The emp2's hashcode:{emp2.GetHashCode()}");
+WriteLine($"The emp1's hashcode:{emp1.GetHashCode()}");
+WriteLine($"The emp2's hashcode:{emp2.GetHashCode()}");
 
 record class Employee
 //class Employee
